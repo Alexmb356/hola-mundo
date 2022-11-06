@@ -1,0 +1,39 @@
+
+#imagecaba{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./Imagenes/ba1.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+a:hover{
+   background-color: grey;
+   text-decoration-color: aqua;
+    
+}
+
+.ignite{
+    border-bottom: 3px dotted #000;
+    text-decoration: none;
+}
+
+#pagar {
+    background-color: rgb(154, 220, 231);
+    color:rgb(12, 5, 68);
+}
+
+#enviar, #borrar {
+    background-color: rgb(110, 201, 19);
+    color:white;
+}
+
+#footer {
+    width: 100%;
+    
+    bottom: 0;
+    background-image: linear-gradient(to bottom right, rgba(40, 60, 80, 255), rgba(50, 90, 140, 255));
+}
